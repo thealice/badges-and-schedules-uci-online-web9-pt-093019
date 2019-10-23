@@ -1,4 +1,3 @@
-speakers = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 def batch_badge_creator(speakers)
  messages = []
  speakers.each {|name| messages << "Hello, my name is #{name}."}
